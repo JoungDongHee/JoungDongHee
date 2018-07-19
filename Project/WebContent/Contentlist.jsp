@@ -73,20 +73,20 @@
         <table class="table table-striped" style="text-align:center; border:1px solid #dddddd">
         <thead>
         <tr>
-        <th style="background-color:#eeeeee;text-align:center:">번호</th>
-        <th style="background-color:#eeeeee;text-align:center:">글제목</th>
-        <th style="background-color:#eeeeee;text-align:center:">작성자</th>
-        <th style="background-color:#eeeeee;text-align:center:">조회수</th>
-        <th style="background-color:#eeeeee;text-align:center:">작성일</th>
+        <th style="background-color:#eeeeee;text-align:center;" >번호</th>
+        <th style="background-color:#eeeeee;text-align:center;">글제목</th>
+        <th style="background-color:#eeeeee;text-align:center;">작성자</th>
+        <th style="background-color:#eeeeee;text-align:center;">조회수</th>
+        <th style="background-color:#eeeeee;text-align:center;">작성일</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-        <th>1</th>
-         <th>1</th>
-          <th>1</th> 
-          <th>1</th>
-           <th>1</th>
+        <th style="text-align:center;">1</th>
+         <th style="text-align:center;">1</th>
+          <th style="text-align:center;">1</th> 
+          <th style="text-align:center;">1</th>
+           <th style="text-align:center;">1</th>
         </tr>
         </tbody>
         </table>
