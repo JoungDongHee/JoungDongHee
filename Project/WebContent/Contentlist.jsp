@@ -66,7 +66,7 @@
 			</div>
 		</nav>
 
-        <!-- Top content -->
+        <!-- Top content  글 목록 -->
         <div class="top-content">
         <div class="container">
         <div class="row">
