@@ -36,9 +36,6 @@ public class MemberDAO {
 			}else {
 				num=1;
 			}
-	
-			
-			
 			pstmt = con.prepareStatement(sql);
 			pstmt.setInt(1, num);
 			pstmt.setString(2, memberBean.getNAME());
