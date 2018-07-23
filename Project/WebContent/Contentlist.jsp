@@ -90,7 +90,7 @@
         </tr>
         </tbody>
         </table>
-        <a href="write.jsp" class="btn btn-primary pull-right">글쓰기</a>
+        <a href="ContentsWrite.jsp" class="btn btn-primary pull-right">글쓰기</a>
         </div>
         
         
