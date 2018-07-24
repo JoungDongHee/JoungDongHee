@@ -7,7 +7,8 @@ public class BoardBean {
 	private int BOARD_READCOUNT;
 	private int BOARD_DATE;
     private int re_ref;
-    public int getRe_ref() {
+
+	public int getRe_ref() {
 		return re_ref;
 	}
 	public void setRe_ref(int re_ref) {

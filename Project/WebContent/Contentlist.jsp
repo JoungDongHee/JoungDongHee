@@ -1,5 +1,23 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"  %>
+<%@ page import="bean.BoardBean" %>
+<%@ page import="java.util.*" %>
+<%@ page import="bean.PageInfo" %>   
+<%@ page import = DAO.BoardDAO %>
+
+<%
+ArrayList<BoardBean> boardList = (ArrayList<BoardBean>)request.getAttribute("boardList");
+
+//페이징 정보 가져오기
+PageInfo pageInfo = (PageInfo)request.getAttribute("pageInfo");
+
+int nowPage = pageInfo.getPage();
+int startPage = pageInfo.getStartPage();
+int endPage = pageInfo.getEndPage();
+int maxPage = pageInfo.getMaxPage();
+int listCount = pageInfo.getListCount();
+%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
     <head>
@@ -32,6 +50,18 @@
     </head>
 
     <body>
+    <%
+    String UserID = null;
+    if(session.getAttribute("userID")!=null)
+    {
+    	UserID=(String)session.getAttribute("userID");
+    }int PageNumber = 1;
+    if(request.getParameter("PageNumber")!=null)
+    {
+    	PageNumber = Integer.parseInt(request.getParameter("PageNumber"));
+    }
+    
+    %>
 		<!-- Top menu -->
 		<nav class="navbar navbar-inverse navbar-fixed-top navbar-no-bg" role="navigation">
 			<div class="container">
@@ -81,13 +111,23 @@
         </tr>
         </thead>
         <tbody>
+        <%
+        BoardDAO boarddao = new BoardDAO();
+        ArrayList<BoardBean> list = (ArrayList<BoardBean>)request.getAttribute("board");
+        for(int i=0;i<list.size();i++)
+        {
+        %>
         <tr>
-        <th style="text-align:center;">1</th>
-         <th style="text-align:center;">1</th>
-          <th style="text-align:center;">1</th> 
-          <th style="text-align:center;">1</th>
-           <th style="text-align:center;">1</th>
+         <td><%= list.get(i).getBOARD_NUM()%></td>
+        <td><a href="boardInfoAction.bo?num=<%=list.get(i).getBOARD_NUM() %>&no=0&page=<%=nowPage%>"><%= list.get(i).getBOARD_SUBJECT()%></a></td>
+        <td><%= list.get(i).getBOARD_SUBJECT()%></td>
+        <td><%=list.get(i).getBOARD_READCOUNT() %></td>
+        <td><%= list.get(i).getBOARD_DATE()%></td>
         </tr>
+        
+        <%
+        }
+        %>
         </tbody>
         </table>
         <a href="ContentsWrite.jsp" class="btn btn-primary pull-right">글쓰기</a>
