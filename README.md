@@ -15,6 +15,8 @@ Here are some ideas to get you started:
 
 <h1> Hi 👋 My Name Is Joung Dong Hee </h1>
 
+After graduating from Inha University of Technology in 2018, I became a Java developer. I joined Ilsong Information Co., Ltd. and worked as a back-end developer for 3 years. With the belief that this will grow P2E greatly, I left the company to convert and I am currently studying.
+
 <h2> My tech stack 📚 </h2>
 
 <img alt="Microsoft SQL Server" src ="https://img.shields.io/badge/Microsoft SQL Server-CC2927.svg?&style=for-the-badge&logo=Microsoft SQL Server&logoColor=white"/> <img alt="Java" src ="https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white"/> <img alt="JavaScript" src ="https://img.shields.io/badge/JavaScript-F7DF1E.svg?&style=for-the-badge&logo=JavaScript&logoColor=white"/> <img alt="HTML5" src ="https://img.shields.io/badge/HTML5-E34F26.svg?&style=for-the-badge&logo=HTML5&logoColor=white"/>
