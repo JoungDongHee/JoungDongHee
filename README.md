@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi there 
 
 <!--
 **JoungDongHee/JoungDongHee** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,6 +14,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+<h1> Hi there My Name Is Joung Dong Hee </h1> 👋
 
 
 <h2> My tech stack 📚 </h2>
