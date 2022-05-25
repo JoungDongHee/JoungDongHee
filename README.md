@@ -14,9 +14,6 @@ Here are some ideas to get you started:
 -->
 
 <h1> Hi 👋 My Name Is Joung Dong Hee </h1>
-<h2>Here's my career :<h2>
-  #### gr
-
 
 <h2> My tech stack 📚 </h2>
 
@@ -26,3 +23,5 @@ Here are some ideas to get you started:
 <h2>My Learning Stack 📚 </h2>
 
 <img alt="Python" src ="https://img.shields.io/badge/Python-3776AB.svg?&style=for-the-badge&logo=Python&logoColor=white"/> <img alt="Node.js" src ="https://img.shields.io/badge/Node.js-339933.svg?&style=for-the-badge&logo=Node.js&logoColor=white"/> <img alt="React" src ="https://img.shields.io/badge/React-61DAFB.svg?&style=for-the-badge&logo=React&logoColor=white"/> <img alt="Bitcoin" src ="https://img.shields.io/badge/Bitcoin-F7931A.svg?&style=for-the-badge&logo=Bitcoin&logoColor=white"/> <img alt="Ethereum" src ="https://img.shields.io/badge/Ethereum-3C3C3D.svg?&style=for-the-badge&logo=Ethereum&logoColor=white"/>
+
+####hi
