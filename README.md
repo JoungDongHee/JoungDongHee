@@ -26,4 +26,6 @@ Here are some ideas to get you started:
 
 <h2>Here's my career📚 </h2>
 
-####hi
+#### 2018 year : Graduated from Inha Technical College
+#### 2019 year : Entered Ilsong Information Co., Ltd.
+#### 2021 year : Resigned from Ilsung Information Co., Ltd.
